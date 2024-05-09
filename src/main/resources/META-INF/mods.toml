@@ -12,7 +12,7 @@ authors="tinytransfem"
 logoFile="logo.png"
 description='''Enchant horse armor and gallop over the freezing ocean!'''
 
-[[dependencies.ante]]
+[[dependencies.shinyhorses]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.20,]"
