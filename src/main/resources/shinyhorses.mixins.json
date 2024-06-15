@@ -3,13 +3,15 @@
   "package": "com.kuraion.shinyhorses.mixin",
   "compatibilityLevel": "JAVA_17",
   "refmap": "shinyhorses.mixins.refmap.json",
+  "plugin": "com.kuraion.shinyhorses.compat.ShinyHorsesMixinPlugin",
   "mixins": [
     "EnchantmentHelperMixin",
     "EnchantmentCategoryMixin",
     "ItemMixin"
   ],
   "client": [
-    "HorseArmorLayerMixin"
+    "HorseArmorLayerMixin",
+    "KelpieArmorLayerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
