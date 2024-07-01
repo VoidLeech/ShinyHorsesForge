@@ -106,10 +106,18 @@ mixin {
     config 'shinyhorses.mixins.json'
 }
 
+repositories {
+    maven {
+        url "https://cursemaven.com"
+    }
+}
+
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.1.0'
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
+    compileOnly fg.deobf("curse.maven:simplekelpies-857856:4904746")
 }
 
 jar {
